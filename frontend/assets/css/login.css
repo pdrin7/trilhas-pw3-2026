@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #ffe600, #ffffff);
+}
+
+/*caixa de Login*/
+.login-box {
+  background-color: #fdfdfd;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/*container central*/
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*titulo*/
+.login-box h2 {
+  margin-bottom: 25px;
+  color: #667;
+}
+
+/*estilo do texto*/
+.login-box p {
+  margin-bottom: 25px;
+  color: #667;
+}
+
+/*estilo dos campos de entrada*/
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/*efeito de foco nos campos de entrada*/
+.login-box input:focus {
+  border-color: #ffd000;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(255, 208, 0, 0.5);
+}
+
+/*estilo de botao*/
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3484fa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  font-size: 18px;
+  background-color: #2968c8;
+  box-shadow: 0px 0px 15px rgba(3, 21, 47, 0.3);
+}
